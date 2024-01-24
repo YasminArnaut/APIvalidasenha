@@ -1,5 +1,8 @@
 package com.br.validarsenhaapi.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class ValidadorService {
 
     public static boolean validaNumero(final String senha) {

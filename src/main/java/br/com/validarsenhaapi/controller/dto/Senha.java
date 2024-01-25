@@ -1,4 +1,4 @@
-package com.br.validarsenhaapi.controller.dto;
+package br.com.validarsenhaapi.controller.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 public class ValidaLetraMinuscula implements ValidaSenha{
     @Override
     public boolean processar(String senha) {
-        for (char c : senha.toCharArray()) {
-            if (c >= 'a' && c <= 'a') {
+        for (char caracter : senha.toCharArray()) {
+            if (caracter >= 'a' && caracter <= 'z') {
                 return true;
             }
         }

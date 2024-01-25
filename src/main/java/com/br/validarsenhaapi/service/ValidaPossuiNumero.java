@@ -1,4 +1,4 @@
-package com.br.validarsenhaapi.usecase;
+package com.br.validarsenhaapi.service;
 
 import org.springframework.stereotype.Component;
 
@@ -7,11 +7,6 @@ public class ValidaPossuiNumero implements ValidaSenha {
 
     @Override
     public boolean processar(String senha) {
-        for (char caracter : senha.toCharArray()) {
-            if (caracter >= '0' && caracter <= '9') {
-                return true;
-            }
-        }
-        return false;
+        return senha.matches(".*[0-9].*");
     }
 }

@@ -1,25 +1,27 @@
-package com.br.validarsenhaapi.service;
+package com.br.validarsenhaapi.usecase;
 
-import com.br.validarsenhaapi.usecase.*;
+import com.br.validarsenhaapi.service.*;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ValidaServiceImpl implements ValidaService {
+public class ValidaUseCaseImpl implements ValidaUseCase {
 
-    ValidaSenha validaCaracterEspecial = new ValidaCaracterEspecial();
-    ValidaSenha validaLetraMaiuscula = new ValidaLetraMaiuscula();
-    ValidaSenha validaLetraMinuscula = new ValidaLetraMinuscula();
-    ValidaSenha validaPossuiNumero = new ValidaPossuiNumero();
-    ValidaSenha validaRepeticaoCaracter = new ValidaRepeticaoCaracter();
     ValidaSenha validaTamanhoSenha = new ValidaTamanhoSenha();
+    ValidaSenha validaPossuiNumero = new ValidaPossuiNumero();
+    ValidaSenha validaLetraMinuscula = new ValidaLetraMinuscula();
+    ValidaSenha validaLetraMaiuscula = new ValidaLetraMaiuscula();
+    ValidaSenha validaCaracterEspecial = new ValidaCaracterEspecial();
+    ValidaSenha validaRepeticaoCaracter = new ValidaRepeticaoCaracter();
+    ValidaSenha validaEspacoBranco = new ValidaEspacoBranco();
 
     @Override
     public boolean processar(String senha) {
-        return validaCaracterEspecial.processar(senha) &&
-                validaLetraMaiuscula.processar(senha) &&
-                validaLetraMinuscula.processar(senha) &&
+        return validaTamanhoSenha.processar(senha) &&
                 validaPossuiNumero.processar(senha) &&
+                validaLetraMinuscula.processar(senha) &&
+                validaLetraMaiuscula.processar(senha) &&
+                validaCaracterEspecial.processar(senha) &&
                 validaRepeticaoCaracter.processar(senha) &&
-                validaTamanhoSenha.processar(senha);
+                validaEspacoBranco.processar(senha);
     }
 }

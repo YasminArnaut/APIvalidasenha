@@ -1,4 +1,4 @@
-package com.br.validarsenhaapi.usecase;
+package com.br.validarsenhaapi.service;
 
 import org.springframework.stereotype.Component;
 

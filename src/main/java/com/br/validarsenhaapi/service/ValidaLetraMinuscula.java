@@ -1,16 +1,11 @@
-package com.br.validarsenhaapi.usecase;
+package com.br.validarsenhaapi.service;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class ValidaLetraMinuscula implements ValidaSenha{
+public class ValidaLetraMinuscula implements ValidaSenha {
     @Override
     public boolean processar(String senha) {
-        for (char caracter : senha.toCharArray()) {
-            if (caracter >= 'a' && caracter <= 'z') {
-                return true;
-            }
-        }
-        return false;
+        return senha.matches(".*[a-z].*");
     }
 }

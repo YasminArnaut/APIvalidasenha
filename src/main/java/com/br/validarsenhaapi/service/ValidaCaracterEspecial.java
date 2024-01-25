@@ -1,4 +1,4 @@
-package com.br.validarsenhaapi.usecase;
+package com.br.validarsenhaapi.service;
 
 import org.springframework.stereotype.Component;
 
@@ -6,14 +6,6 @@ import org.springframework.stereotype.Component;
 public class ValidaCaracterEspecial implements ValidaSenha {
     @Override
     public boolean processar(String senha) {
-        String s = "!@#$%^&amp;*()-+";
-        for (char ch : s.toCharArray()) {
-            for (char c : senha.toCharArray()) {
-                if (ch == c) {
-                    return true;
-                }
-            }
-        }
-        return false;
+        return senha.matches(".*[!@#$%^&*()+-].*");
     }
 }

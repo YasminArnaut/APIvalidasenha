@@ -33,6 +33,10 @@ public class Senha {
         this.senhaValida = senhaValida;
     }
 
+    public Senha(String senha) {
+        this.senha = senha;
+    }
+
     public Senha(boolean senhaValida) {
         this.senhaValida = senhaValida;
     }

@@ -1,4 +1,4 @@
-package com.br.validarsenhaapi.usecase;
+package br.com.validasenhaapi.service;
 
 import org.springframework.stereotype.Component;
 
@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class ValidaTamanhoSenha implements ValidaSenha {
     @Override
     public boolean processar(String senha) {
-        return senha.length() >= 9;
+        return senha.matches("^.{9,}$");
     }
 }

@@ -1,10 +1,10 @@
-package br.com.validarsenhaapi;
+package br.com.validasenhaapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ValidarsenhaapiApplicationTests {
+class ValidaSenhaApiApplicationTests {
 
 	@Test
 	void contextLoads() {

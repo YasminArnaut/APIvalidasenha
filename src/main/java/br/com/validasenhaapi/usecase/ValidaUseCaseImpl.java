@@ -1,6 +1,6 @@
-package br.com.validarsenhaapi.usecase;
+package br.com.validasenhaapi.usecase;
 
-import br.com.validarsenhaapi.service.*;
+import br.com.validasenhaapi.service.*;
 import org.springframework.stereotype.Service;
 
 @Service

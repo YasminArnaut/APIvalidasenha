@@ -1,5 +1,6 @@
-package br.com.validarsenhaapi.service;
+package br.com.validasenhaapi.unitario;
 
+import br.com.validasenhaapi.service.ValidaPossuiNumero;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

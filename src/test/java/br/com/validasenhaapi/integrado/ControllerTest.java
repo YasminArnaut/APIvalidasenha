@@ -1,7 +1,7 @@
-package br.com.validarsenhaapi.controller;
+package br.com.validasenhaapi.integrado;
 
 
-import br.com.validarsenhaapi.controller.dto.Senha;
+import br.com.validasenhaapi.controller.dto.Senha;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Assertions;
@@ -37,7 +37,7 @@ public class ControllerTest {
         HttpEntity<String> requestEntity = new HttpEntity<>(objectMapper.writeValueAsString(senha), headers);
 
         ResponseEntity<Senha> responseEntity = restTemplate.exchange(
-                "http://localhost:9090/api/validacoes/senhas",
+                "http://localhost:9090/api/senhas/validacoes",
                 HttpMethod.POST,
                 requestEntity,
                 Senha.class
@@ -58,7 +58,7 @@ public class ControllerTest {
         HttpEntity<String> requestEntity = new HttpEntity<>(objectMapper.writeValueAsString(senha), headers);
 
         ResponseEntity<Senha> responseEntity = restTemplate.exchange(
-                "http://localhost:9090/api/validacoes/senhas",
+                "http://localhost:9090/api/senhas/validacoes",
                 HttpMethod.POST,
                 requestEntity,
                 Senha.class

@@ -1,4 +1,4 @@
-package br.com.validarsenhaapi.service;
+package br.com.validasenhaapi.service;
 
 import org.springframework.stereotype.Component;
 

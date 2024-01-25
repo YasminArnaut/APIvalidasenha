@@ -1,13 +1,12 @@
-package br.com.validarsenhaapi;
+package br.com.validasenhaapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ValidarsenhaapiApplication {
+public class ValidaSenhaApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ValidarsenhaapiApplication.class, args);
+		SpringApplication.run(ValidaSenhaApiApplication.class, args);
 	}
-
 }

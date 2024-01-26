@@ -11,9 +11,9 @@ A API impõe os seguintes requisitos mínimos para garantir senhas seguras:<br>
 - Ao menos 1 letra minúscula e 1 letra maiúscula: Garanta a presença de letras minúsculas e maiúsculas na senha para torná-la mais resistente a ataques.<br>
 - Ao menos 1 caractere especial: Inclua pelo menos um caractere especial da lista: !@#$%^&*()-+. Esses caracteres adicionam complexidade à senha.<br>
 - Sem caracteres repetidos: A senha não deve conter caracteres repetidos dentro do conjunto, reforçando a segurança.<br>
-# Exemplo de Senha Valida<br>
+# Exemplo de Senha Válida<br>
 - "AbTi1@jok"<br>
-# Exemplo de Senha Invalida<br>
+# Exemplo de Senha Inválida<br>
 - "AA11@@22"<br>
 
 

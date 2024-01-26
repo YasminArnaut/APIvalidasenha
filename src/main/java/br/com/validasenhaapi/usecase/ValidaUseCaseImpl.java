@@ -1,9 +1,9 @@
 package br.com.validasenhaapi.usecase;
 
 import br.com.validasenhaapi.service.*;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
 public class ValidaUseCaseImpl implements ValidaUseCase {
 
     ValidaSenha validaTamanhoSenha = new ValidaTamanhoSenha();

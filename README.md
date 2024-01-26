@@ -38,5 +38,4 @@ https://github.com/YasminArnaut/apivalidasenha/assets/98672747/b9b54844-4dbe-415
 - Incluir a capacidade de fornecer uma mensagem explicativa ao detectar uma senha inválida.<br>
 
 ##
-Feito por [Yasmin Arnaut](https://www.linkedin.com/in/yasmin-arnaut/)
-<img align="right" width="80" height="90" src="https://cdn.discordapp.com/attachments/939573113820151930/954900647659057154/Yasmin.gif">
+Feito por [Yasmin Arnaut](https://www.linkedin.com/in/yasmin-arnaut/) 👩🏽‍💻

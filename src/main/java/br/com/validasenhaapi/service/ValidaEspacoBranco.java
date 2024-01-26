@@ -1,8 +1,8 @@
 package br.com.validasenhaapi.service;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class ValidaEspacoBranco implements ValidaSenha {
 
     @Override

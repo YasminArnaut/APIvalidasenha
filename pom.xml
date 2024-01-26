@@ -8,10 +8,10 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.br</groupId>
-	<artifactId>validarsenhaapi</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>validarsenhaapi</name>
+	<groupId>br.com</groupId>
+	<artifactId>validasenhaapi</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>validasenhaapi</name>
 	<description>API de validar senha</description>
 	<properties>
 		<java.version>11</java.version>

@@ -20,16 +20,23 @@ Este projeto foi desenvolvido com as principais tecnologias:
 - [Java 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Regex](https://medium.com/xp-inc/regex-um-guia-pratico-para-express%C3%B5es-regulares-1ac5fa4dd39f)
+- JUnit
+- Biblioteca de testes
 
 # API
 - A utilização é bastante direta: basta enviar uma senha para ser validada; se a senha seguir as regras, será retornado `true`, caso contrário, `false`. 
-- Exemplo de Senha Válida<br>
-- "AbTi1@jok"<br>
-- Exemplo de Senha Inválida<br>
-- "AA11@@22"<br>
+- Exemplo de Senha Válida:<br>
+"AbTi1@jok"<br>
+- Exemplo de Senha Inválida:<br>
+"AA11@@22"<br>
 - Para acessar remotamente sem precisar da API rodando localmente, será necessário realizar uma requisição
   do tipo `POST` no end-point : `http://localhost:8080/api/senhas/validacoes`
 
 https://github.com/YasminArnaut/apivalidasenha/assets/98672747/b9b54844-4dbe-4154-bbdd-9ae4f276ac59
 
+### Possíveis aprimoramentos:<br>
+- Incluir a capacidade de fornecer uma mensagem explicativa ao detectar uma senha inválida.<br>
 
+##
+Feito por [Yasmin Arnaut](https://www.linkedin.com/in/yasmin-arnaut/)
+<img align="right" width="80" height="90" src="https://cdn.discordapp.com/attachments/939573113820151930/954900647659057154/Yasmin.gif">

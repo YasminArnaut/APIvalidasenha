@@ -12,7 +12,7 @@ A API impõe os seguintes requisitos mínimos para garantir senhas seguras:<br>
 - Ao menos 1 caractere especial: Inclua pelo menos um caractere especial da lista: !@#$%^&*()-+. Esses caracteres adicionam complexidade à senha.<br>
 - Sem caracteres repetidos: A senha não deve conter caracteres repetidos dentro do conjunto, reforçando a segurança.<br>
 
-# Desenho da Aplicação
+# Desenho da Aplicação<br>
 ![Captura de tela 2024-01-25 215437](https://github.com/YasminArnaut/YasminArnaut/assets/98672747/0f4dc00a-3939-4e86-b297-088a896f132f)
 
 # Tecnologias<br>
